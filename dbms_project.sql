@@ -183,27 +183,27 @@ INSERT INTO items (item_id, item_name, price, cafe_id) VALUES
 (220, 'Chai Tea Latte', 4.00, 20);
 
 -- Entries for orders table
-INSERT INTO orders (order_id, cust_id, item_id, status, QTy) VALUES
-(101, 1, 201, 'completed', 2),
-(102, 2, 202, 'completed', 1),
-(103, 3, 203, 'completed', 3),
-(104, 4, 204, 'completed', 1),
-(105, 5, 205, 'completed', 2),
-(106, 6, 206, 'completed', 2),
-(107, 7, 207, 'completed', 1),
-(108, 8, 208, 'completed', 3),
-(109, 9, 209, 'completed', 1),
-(110, 10, 210, 'completed', 2),
-(111, 11, 211, 'completed', 2),
-(112, 12, 212, 'completed', 1),
-(113, 13, 213, 'completed', 3),
-(114, 14, 214, 'completed', 1),
-(115, 15, 215, 'completed', 2),
-(116, 16, 216, 'completed', 2),
-(117, 17, 217, 'completed', 1),
-(118, 18, 218, 'completed', 3),
-(119, 19, 219, 'completed', 1),
-(120, 20, 220, 'completed', 2);
+INSERT INTO orders (order_id, cust_id, item_id, status, dish_name, QTy) VALUES
+(101, 1, 201, 'pending', 'Latte', 2),
+(102, 2, 202, 'pending',"Cappuccino" ,1),
+(103, 3, 203, 'pending', "Espresso",3),
+(104, 4, 204, 'pending',"Mocha" ,1),
+(105, 5, 205, 'pending',"Americano" ,2),
+(106, 6, 206, 'pending',"Flat White" ,2),
+(107, 7, 207, 'pending',"Macchiato" ,1),
+(108, 8, 208, 'pending',"Affogato" ,3),
+(109, 9, 209, 'pending',"Turkish Coffee" ,1),
+(110, 10, 210, 'pending',"Irish Coffee" ,2),
+(111, 11, 211, 'pending',"Vanilla Latte" ,2),
+(112, 12, 212, 'pending',"Hazelnut Cappuccino" ,1),
+(113, 13, 213, 'pending',"Decaf Espresso" ,3),
+(114, 14, 214, 'pending',"White Mocha" ,1),
+(115, 15, 215, 'pending',"Cold Brew" ,2),
+(116, 16, 216, 'pending',"Iced Latte" ,2),
+(117, 17, 217, 'pending', "Latte",1),
+(118, 18, 218, 'pending',"Cappuccino" ,3),
+(119, 19, 219, 'pending',"Espresso" ,1),
+(120, 20, 220, 'pending',"Mocha" ,2);
 
 -- Entries for employee table
 INSERT INTO employee (emp_id, name, phone_no, date_of_birth, date_of_joining, address, gender, cafe_id) VALUES
